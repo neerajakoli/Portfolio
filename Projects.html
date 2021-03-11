@@ -16,7 +16,7 @@
     <title>Portfolio</title>
   </head>
 <style>
-h1.name {text-align: center;background-color:none; font-size: 3vw;}
+h1.name {text-align: center;background-color:none;font-size: 3vw;}
 .column{float:left;}
 .left{width:20%; height:100%;  right:0;}
 .right{background-color: rgb(215 239 212);width:80%; }
@@ -24,6 +24,8 @@ h1.name {text-align: center;background-color:none; font-size: 3vw;}
 .firstcolumn{float:left; width:50%; }
 .row:after{content:""; display:table;clear:both;}
 footer{background-color:rgb(64 106 121);; height:5%; width:100%;position:fixed; bottom:0; left:0;}
+.subcolumn{float:left;width:29%; height:auto; background-color: rgb(243 196 228); padding:.1%; margin-right: 2%;margin-left: 2%;}
+.row:after{content:""; display:table;clear:both;}
 p{font-family: Segoe UI; margin-left: 20px; margin-bottom: 50px;}
 table {width:45vw; height:45vh;border: 1px solid black; margin-right: 10%; margin-left: 10%;margin-top: 5%;margin-bottom: 5%;}
 th, td{border: 1px solid black; font-family: Segoe UI; text-align: center; font-size: 1.3vw;}
@@ -58,36 +60,54 @@ th, td{border: 1px solid black; font-family: Segoe UI; text-align: center; font-
   <div class="column right"><div class="education">
     <div class="ed-heading grey">
       <i class="fas fa-school icon"></i>
-      <h2 style="font-size: 2.5vw; margin-left: 5%; font-style: oblique; color: brown;">Contact me</h2>
+      <h2 style="font-size: 2.5vw; margin-left: 5%; font-style: oblique; color: brown;">Projects</h2>
     </div>
 
+    <div class="subrow">
         
+        <div class="subcolumn"><div class="image">
+            <img src="images/Conways.gif" alt="CWGL" width=100%; height=97.5%;>
+           </div><div class="Hobbies" style="margin-left: 20px; margin-top: 1px;">
+            <h2 style="margin-bottom: 10px;color:blueviolet">Conways Game of Life</h2>
+            </div>
+            <ul>
+                <li>Tools: Java</li>
+                <li>Creating infinite 2D cell grids</li>
+                <li>Each cell can be either alive or dead </li>
+                <li>Dynamically status of cell changes as per rules</li>
+                <li>Future generations generated</li>
+              </ul>
+      </div> 
 
-
-<body>
-  <p style="margin-bottom: 20px;">
-    <ul style="list-style-type: none;padding:auto; font-size:1.3vw; margin-left: 5%;">
-        <li style="font-family: Segoe UI; margin-left: 3px; margin-bottom: 20px;">Email: neeraja.kolisetty@msitprogram.net</li>
-        <li style="font-family: Segoe UI; margin-left: 3px; margin-bottom: 20px;">Phone: 8456789341</li>
-        <li style="font-family: Segoe UI; margin-left: 3px; margin-bottom: 20px;">Github: neerajakoli</li>
-        <li style="font-family: Segoe UI; margin-left: 3px; margin-bottom: 20px;">Linkdin: neeraja-kolisetty-31bbaa036</li>
-      <br></ul>
-    <h3 style=" font-family: Segoe UI;margin-left: 5%; font-style: oblique; color:blueviolet">Feedback/Suggestions:</h3>
-
-<form action="mailto:neeraja.kolisetty@gmail.com">
-  <label style="margin-left: 8%; font-family: Segoe UI" for="fname">Name:</label><br>
-  <input style="margin-left: 8%; font-family: Segoe UI" type="text" id="fname" value=""><br>
-  <label style="margin-left: 8%; font-family: Segoe UI" for="fname">Email ID:</label><br>
-  <input style="margin-left: 8%; font-family: Segoe UI" type="text" id="fname" value=""><br>
-  <label style="margin-left: 8%; font-family: Segoe UI" for="fname">Feedback:</label><br>
-  <input style="margin-left: 8%; font-family: Segoe UI" type="text" id="fname" value=""><br><br>
-  <input style="margin-left: 8%; font-family: Segoe UI" type="submit" value="Submit">
-</form>
-</p>
-
-    
-       
+       <div class="subcolumn"><div class="image">
+            <img src="images/Bank.jpg" alt="CWGL" width=100%; height=88%;>
+           </div><div class="Hobbies" style="margin-left: 20px; margin-top: 1px;">
+            <h2 style="margin-bottom: 10px; color:blueviolet">Bank Application</h2>
+            </div>
+            <ul>
+                <li>Tools: Java</li>
+                <li>Creating different types of accounts</li>
+                <li>Maintaing the transcations of every account </li>
+                <li>Check balance, debit, credit operations on accounts</li><br>
+              </ul>
       </div>
-    </div>  
-</body>
+
+      
+      <div class="subcolumn"><div class="image">
+        <img src="images/Rabbit.PNG" alt="CWGL" width=100%; height=90%;>
+       </div><div class="Hobbies" style="margin-left: 20px; margin-top: 1px;">
+        <h2 style="margin-bottom: 20px;color:blueviolet">Rabbit Game</h2>
+        </div>
+        <ul>
+            <li>Tools: Python</li>
+            <li>Creating grid depending on level of game</li>
+            <li>Creating rabbit, obstacles</li>
+            <li>Analysing the path for rabbit</li>
+            <li>Display the status of the game</li><br>
+          </ul>
+  </div> 
+        </div> 
+        <footer>
+          <br>
+        </footer> 
 </html>
